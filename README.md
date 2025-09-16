@@ -16,7 +16,7 @@ H2 Database (em memória)
 
 Clone o repositório:
 
-git clone https://seu-repositorio.git
+git clone https://seu-repositorio.git](https://github.com/guiimontenegro/Outsera-test-backend.git
 cd seu-projeto
 
 Rode o projeto usando Maven ou Gradle:
