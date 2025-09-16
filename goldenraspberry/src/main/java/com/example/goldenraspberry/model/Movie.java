@@ -15,7 +15,7 @@ public class Movie {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "movie_year", nullable = false) // renomeado para evitar conflito
+    @Column(name = "movie_year", nullable = false)
     private int year;
 
     @Column(nullable = false)
@@ -27,7 +27,6 @@ public class Movie {
     @Column(nullable = false)
     private boolean winner;
 
-    // Getters e Setters
     public Long getId() {
         return id;
     }

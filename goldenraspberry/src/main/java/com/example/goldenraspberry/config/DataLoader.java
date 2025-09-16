@@ -25,7 +25,7 @@ public class DataLoader implements CommandLineRunner {
             try (BufferedReader br = new BufferedReader(
                     new InputStreamReader(new ClassPathResource("movies.csv").getInputStream()))) {
 
-                br.readLine(); // Pular header
+                br.readLine();
 
                 String line;
                 while ((line = br.readLine()) != null) {

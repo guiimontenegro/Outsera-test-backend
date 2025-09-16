@@ -10,6 +10,5 @@ import com.example.goldenraspberry.model.Movie;
 @Repository
 public interface MovieRepository extends JpaRepository<Movie, Long> {
 
-    // Buscar apenas os vencedores ordenados por produtor e ano
     List<Movie> findByWinnerTrueOrderByProducersAscYearAsc();
 }

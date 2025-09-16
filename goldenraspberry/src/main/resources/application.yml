@@ -7,10 +7,10 @@ spring:
   h2:
     console:
       enabled: true
-      path: /h2-console   # define o caminho do console
+      path: /h2-console
   jpa:
     hibernate:
-      ddl-auto: create   # pode usar 'update' se quiser manter dados entre reinícios
+      ddl-auto: create
     show-sql: true
     properties:
       hibernate:
