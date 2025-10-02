@@ -49,10 +49,18 @@ console:
 enabled: true
 path: /h2-console
 
-Endpoints
+## Endpoints
 
-/movies → Listar todos os filmes
+- /movies → Listar todos os filmes
 
-/movies/{id} → Consultar filme por ID
+- /movies/{id} → Consultar filme por ID
 
-/movies (POST) → Adicionar um novo filme
+- /movies (POST) → Adicionar um novo filme
+
+
+## Endpoints da API
+
+- `GET /awards/intervals` → Retorna os produtores com menor e maior intervalo entre prêmios consecutivos.
+- `GET /movies` → Lista todos os filmes.
+- `GET /movies/{id}` → Detalhes de um filme por ID.
+- `POST /movies` → Adiciona um novo filme.
